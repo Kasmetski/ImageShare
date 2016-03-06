@@ -1,0 +1,19 @@
+<head>
+    <title>ImageShare App</title>
+</head>
+
+<body>
+    {{> imageAddForm}}
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            {{> loginButtons}}
+        </div>
+    </nav>
+
+    <div class="container js-container">
+        <h1>Welcome to ImageShare {{username}}!</h1>
+        {{> images}}
+    </div>
+</body>
+
+
